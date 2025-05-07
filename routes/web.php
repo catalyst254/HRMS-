@@ -76,6 +76,16 @@ Route::group(['namespace' => 'App\Http\Controllers'],function()
         Route::get('page/account/{user_id}', 'profileDetail')->middleware('auth');
     });
 
+    // -------------------------- employee ----------------------//
+    Route::middleware(['auth', 'verified', 'role:employee'])->prefix('employee')->group(function () {
+        Route::get('/dashboard', [App\Http\Controllers\Employee\DashboardController::class, 'index'])->name('employee.dashboard');
+
+        // Complete profile after email verification
+        Route::get('/complete-profile', [App\Http\Controllers\Employee\ProfileController::class, 'show'])->name('employee.complete.profile');
+        Route::post('/complete-profile', [App\Http\Controllers\Employee\ProfileController::class, 'store'])->name('employee.complete.profile.save');
+    });
+
+
     // -------------------------- hr ----------------------//
     Route::middleware('auth')->prefix('hr/')->group(function () {
         Route::controller(HRController::class)->group(function () {
