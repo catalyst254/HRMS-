@@ -68,7 +68,7 @@ class DynamoBatchRepository implements BatchRepository
         string $applicationName,
         string $table,
         ?int $ttl,
-        ?string $ttlAttribute
+        ?string $ttlAttribute,
     ) {
         $this->factory = $factory;
         $this->dynamoDbClient = $dynamoDbClient;
@@ -525,7 +525,7 @@ class DynamoBatchRepository implements BatchRepository
     }
 
     /**
-     * The the name of the table that contains the batch records.
+     * The name of the table that contains the batch records.
      *
      * @return string
      */

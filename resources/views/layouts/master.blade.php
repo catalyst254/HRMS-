@@ -2,16 +2,16 @@
 <html lang="en" class="light scroll-smooth group" data-layout="vertical" data-sidebar="light" data-sidebar-size="lg" data-mode="light" data-topbar="light" data-skin="default" data-navbar="sticky" data-content="fluid" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <title>HR | StarCode - Admin & Dashboard Template</title>
+    <title>HR portal | KMTC Embu college</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta content="Minimal Admin & Dashboard Template" name="description">
-    <meta content="StarCode Kh" name="author">
+    <meta content="Best Kenya Web Designers" name="author">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- App favicon -->
-    <link rel="shortcut icon" href="{{ URL::to('assets/images/favicon.ico') }}">
+    <link rel="shortcut icon" href="{{ URL::to('assets/images/KMTC.jpg') }}">
     <!-- Layout config Js -->
     <script src="{{ URL::to('assets/js/layout.js') }}"></script>
-    <!-- StarCode CSS -->
+    <!-- KMTC Embu College CSS -->
     <link rel="stylesheet" href="{{ URL::to('assets/css/starcode2.css') }}">
     
     <style>
@@ -35,18 +35,18 @@
             <div class="flex items-center justify-center px-5 text-center h-header group-data-[layout=horizontal]:hidden group-data-[sidebar-size=sm]:fixed group-data-[sidebar-size=sm]:top-0 group-data-[sidebar-size=sm]:bg-vertical-menu group-data-[sidebar-size=sm]:group-data-[sidebar=dark]:bg-vertical-menu-dark group-data-[sidebar-size=sm]:group-data-[sidebar=brand]:bg-vertical-menu-brand group-data-[sidebar-size=sm]:group-data-[sidebar=modern]:bg-gradient-to-br group-data-[sidebar-size=sm]:group-data-[sidebar=modern]:to-vertical-menu-to-modern group-data-[sidebar-size=sm]:group-data-[sidebar=modern]:from-vertical-menu-form-modern group-data-[sidebar-size=sm]:group-data-[sidebar=modern]:bg-vertical-menu-modern group-data-[sidebar-size=sm]:z-10 group-data-[sidebar-size=sm]:w-[calc(theme('spacing.vertical-menu-sm')_-_1px)] group-data-[sidebar-size=sm]:group-data-[sidebar=dark]:dark:bg-zink-700">
                 <a href="{{ route('home') }}" class="group-data-[sidebar=dark]:hidden group-data-[sidebar=brand]:hidden group-data-[sidebar=modern]:hidden">
                     <span class="hidden group-data-[sidebar-size=sm]:block">
-                        <img src="{{ URL::to('assets/images/logo.png') }}" alt="" class="h-6 mx-auto">
+                        <img src="{{ URL::to('assets/images/logoz.png') }}" alt="" class="h-6 mx-auto">
                     </span>
                     <span class="group-data-[sidebar-size=sm]:hidden">
-                        <img src="{{ URL::to('assets/images/logo-dark.png') }}" alt="" class="h-6 mx-auto">
+                        <img src="{{ URL::to('assets/images/logoz.png') }}" alt="" class="h-6 mx-auto">
                     </span>
                 </a>
                 <a href="{{ route('home') }}" class="hidden group-data-[sidebar=dark]:block group-data-[sidebar=brand]:block group-data-[sidebar=modern]:block">
                     <span class="hidden group-data-[sidebar-size=sm]:block">
-                        <img src="{{ URL::to('assets/images/logo.png') }}" alt="" class="h-6 mx-auto">
+                        <img src="{{ URL::to('assets/images/logoz.png') }}" alt="" class="h-6 mx-auto">
                     </span>
                     <span class="group-data-[sidebar-size=sm]:hidden">
-                        <img src="{{ URL::to('assets/images/logo-light.png') }}" alt="" class="h-6 mx-auto">
+                        <img src="{{ URL::to('assets/images/logoz.png') }}" alt="" class="h-6 mx-auto">
                     </span>
                 </a>
                 <button type="button" class="hidden p-0 float-end" id="vertical-hover">
@@ -73,7 +73,8 @@
                                     <img src="{{ URL::to('assets/images/logo.png') }}" alt="" class="h-6 mx-auto">
                                 </span>
                                 <span class="group-data-[topbar=dark]:hidden group-data-[topbar=brand]:hidden">
-                                    <img src="{{ URL::to('assets/images/logo-dark.png') }}" alt="" class="h-6 mx-auto">
+                                    <img src="{{ URL::to('assets/images/logoz.png
+                                    ') }}" alt="" class="h-6 mx-auto">
                                 </span>
                             </a>
                             <a href="{{ route('home') }}" class="hidden group-data-[topbar=dark]:block group-data-[topbar=brand]:block">
@@ -81,7 +82,7 @@
                                     <img src="{{ URL::to('assets/images/logo.png') }}" alt="" class="h-6 mx-auto">
                                 </span>
                                 <span class="group-data-[topbar=dark]:block group-data-[topbar=brand]:block">
-                                    <img src="{{ URL::to('assets/images/logo-light.png') }}" alt="" class="h-6 mx-auto">
+                                    <img src="{{ URL::to('assets/images/logoz.png') }}" alt="" class="h-6 mx-auto">
                                 </span>
                             </a>
                         </div>
@@ -319,11 +320,11 @@
                 <div class="group-data-[layout=horizontal]:mx-auto group-data-[layout=horizontal]:max-w-screen-2xl w-full">
                     <div class="grid items-center grid-cols-1 text-center lg:grid-cols-2 text-slate-400 dark:text-zink-200 ltr:lg:text-left rtl:lg:text-right">
                         <div>
-                            <script>document.write(new Date().getFullYear())</script> StarCode Kh
+                            <script>document.write(new Date().getFullYear())</script> KMTC Embu College
                         </div>
                         <div class="hidden lg:block">
                             <div class="ltr:text-right rtl:text-left">
-                                Design & Develop by StarCode Kh
+                                All rights Preserved – Powered by Best Kenya Web Designers
                             </div>
                         </div>
                     </div>
@@ -342,7 +343,7 @@
     <div id="customizerButton" drawer-end="" class="fixed inset-y-0 flex flex-col w-full transition-transform duration-300 ease-in-out transform bg-white shadow ltr:right-0 rtl:left-0 md:w-96 z-drawer show dark:bg-zink-600">
         <div class="flex justify-between p-4 border-b border-slate-200 dark:border-zink-500">
             <div class="grow">
-                <h5 class="mb-1 text-16">starcode Theme Customizer</h5>
+                <h5 class="mb-1 text-16">KMTC Embu College Theme Customizer</h5>
                 <p class="font-normal text-slate-500 dark:text-zink-200">Choose your themes & layouts etc.</p>
             </div>
             <div class="shrink-0">

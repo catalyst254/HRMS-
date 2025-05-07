@@ -6,19 +6,18 @@
         <div class="container-fluid group-data-[content=boxed]:max-w-boxed mx-auto">
             <div class="flex flex-col gap-2 py-4 md:flex-row md:items-center print:hidden">
                 <div class="grow">
-                    <h5 class="text-16">HR</h5>
+                    <h5 class="text-16">HR Portal</h5>
                 </div>
                 <ul class="flex items-center gap-2 text-sm font-normal shrink-0">
                     <li class="relative before:content-['\ea54'] before:font-remix ltr:before:-right-1 rtl:before:-left-1  before:absolute before:text-[18px] before:-top-[3px] ltr:pr-4 rtl:pl-4 before:text-slate-400 dark:text-zink-200">
                         <a href="#!" class="text-slate-400 dark:text-zink-200">Dashboards</a>
                     </li>
-                    <li class="text-slate-700 dark:text-zink-100">HR</li>
+                    <li class="text-slate-700 dark:text-zink-100">HR Portal</li>
                 </ul>
             </div>
             <div class="grid grid-cols-12 2xl:grid-cols-12 gap-x-5">
                 <div class="col-span-12 md:order-1 xl:col-span-8 2xl:col-span-6">
-                    <h5 class="mb-2">Welcome StarCode Kh 🎉</h5>
-                    <p class="mb-5 text-slate-500 dark:text-zink-200">The salary of<a href="#!" class="underline text-slate-800 dark:text-zink-50"> StarCode Kh</a> is pending since 05 Dec, 2024. the documentation of the tasks, workflows, and activities that make up a process managed by the HR or People Ops team. <a href="#!" class="text-red-500">Learn More</a></p>
+                    <h5 class="mb-2">Welcome  HR Portal KMTC Embu College 🎉</h5>
                 </div>
                 <div class="col-span-12 md:order-2 xl:col-span-4 2xl:col-start-9 card">
                     <div class="p-4">
@@ -497,7 +496,7 @@
                                             <img src="{{ URL::to('assets/images/user-2.jpg') }}" alt="" class="h-10 rounded-full">
                                         </div>
                                         <div class="grow">
-                                            <h6 class="mb-1"><a href="#!">StarCode Kh</a></h6>
+                                            <h6 class="mb-1"><a href="#!">KMTC Embu College</a></h6>
                                             <p class="text-slate-500 dark:text-zink-200">starcode@starcode.com</p>
                                         </div>
                                         <div class="relative dropdown shrink-0">
